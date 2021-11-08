@@ -1,0 +1,38 @@
+name: doctor_profile
+description: Doctor Profile Template
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.13.0-211.14.beta <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  dartz: ^0.10.0
+  get_it: ^7.2.0
+  intl: ^0.17.0
+  flutter_svg: ^0.23.0+1
+  google_fonts: ^2.1.0
+  flutter_rating_bar: ^4.0.0
+  google_maps_flutter: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.4
+
+flutter:
+  generate: true
+
+  uses-material-design: true
+
+  assets:
+     - images/
